@@ -103,7 +103,13 @@ nav {
   .nav-title {
     display: inline-block;
     font-size: 32px;
-    padding: 28px 0;
+    padding: 0 28px;
+  }
+
+  @media #{$medium-and-down} {
+    .nav-title {
+      padding-left: 12px;
+    }
   }
 
 
