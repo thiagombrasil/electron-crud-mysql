@@ -4123,6 +4123,14 @@ body.keyboard-focused .dropdown-content li:focus {
     padding: 24px; }
   .modal .modal-close {
     cursor: pointer; }
+  .modal .modal-header {
+    border-radius: 2px 2px 0 0;
+    padding: 4px 28px;
+    background-color: #fafafa;
+    height: 56px;
+    width: 100%; }
+    .modal .modal-header .modal-title {
+      font-size: 28px; }
   .modal .modal-footer {
     border-radius: 0 0 2px 2px;
     background-color: #fafafa;

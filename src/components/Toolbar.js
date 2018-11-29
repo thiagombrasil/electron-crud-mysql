@@ -8,7 +8,7 @@ const Toolbar = () => (
             <div className="nav-title">Home</div>
             <ul className="right">
                 <li><a href="#"><i className="material-icons">notifications</i></a></li>
-                <li><a href="#"><i className="material-icons">settings</i></a></li>
+                <li><a href="#modal1" className="modal-trigger"><i className="material-icons">settings</i></a></li>
             </ul>
             </div>
         </nav>

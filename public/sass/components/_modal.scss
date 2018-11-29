@@ -34,6 +34,18 @@
     cursor: pointer;
   }
 
+  .modal-header {
+    border-radius: 2px 2px 0 0;
+    padding: 4px 28px;
+    background-color: #fafafa;
+    height: 56px;
+    width: 100%;
+
+    .modal-title {
+      font-size: 28px;
+    }
+  }
+
   .modal-footer {
     border-radius: 0 0 2px 2px;
     background-color: #fafafa;
